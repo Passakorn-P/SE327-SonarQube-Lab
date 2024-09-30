@@ -1,6 +1,7 @@
 package se327;
 
 public class AdvancedCalculator extends Calculator {
+    // This class extends Calculator, so it inherits all the methods from Calculator.
     public double power(int base, int exponent) {
         return Math.pow(base, exponent);
     }
